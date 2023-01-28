@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hbpcli"
+version = "0.0.1"
+description = "Holy Biblie in CLI interface."
+authors = ["William Sampaio <56176702+WilliamSampaio@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
